@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Montagu+Slab:opsz,wght@16..144,300;16..144,400&family=Oswald:wght@600&family=Slabo+27px&display=swap");
+* {
+  font-family: "Montagu Slab", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav .navbar {
+  color: black !important;
+}
+header nav .navbar-brand {
+  color: #F2F2F2;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+}
+header nav span .navbar-toggler-icon {
+  text-shadow: 0px 0px 5px rgb(255, 199, 15) !important;
+}
+header nav .navbar-toggler {
+  box-shadow: 0px 0px 10px rgb(255, 199, 15);
+}
+header nav .nav-link {
+  color: #F2F2F2 !important;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+}
+
+.jumbotron {
+  height: 500px;
+  margin-top: 0% !important;
+  background-image: url(../img/inicio.jpg);
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.jumbotron h1 {
+  padding-bottom: 0%;
+  font-size: 30px;
+  color: #F2F2F2;
+  text-shadow: 0px 0px 4px rgb(255, 199, 15);
+  border: solid black 5px;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  box-shadow: 0px 0px 5px rgb(255, 199, 15);
+}
+.jumbotron p {
+  color: #F2F2F2;
+  text-shadow: 0px 0px 4px rgb(255, 199, 15);
+  font-size: 25px;
+  border: solid black 5px;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+  box-shadow: 0px 0px 10px rgb(255, 199, 15);
+}
+.jumbotron button {
+  position: absolute;
+  right: 50px;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px rgb(255, 199, 15);
+}
+.jumbotron button a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+h2 {
+  color: #F2F2F2;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  background-color: #A5A4A6;
+  height: 55px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  margin: 0%;
+}
+
+main .servis {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(#A5A4A6, #212529);
+}
+main .servis .card {
+  height: 500px;
+  background-color: #212529;
+  width: 350px;
+  text-align: center;
+  color: #F2F2F2;
+  border: solid 6px black;
+  box-shadow: 0px 0px 5px rgb(255, 199, 15);
+  margin-bottom: 10px;
+}
+main .servis .card-img {
+  height: 400px;
+  background-image: url(../img/corte\ clasico.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px black;
+}
+main .servis .card-img2 {
+  height: 400px;
+  background-image: url(../img/barba.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px black;
+}
+main .servis .card-img3 {
+  height: 400px;
+  background-image: url(../img/color.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px black;
+}
+main .servis .card-title {
+  color: #F2F2F2;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  font-size: 25px;
+  margin: 5px;
+}
+main .servis .btn {
+  font-size: 18px;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  border: solid 3px whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgb(255, 199, 15);
+  margin: 5px;
+  margin-top: 0%;
+}
+main .servis .btn a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.nosotros {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.nosotros .nleft {
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2019/09/17/18/52/barbershop-4484297_1280.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border: solid 5px black;
+}
+.nosotros .nright {
+  width: 100%;
+  padding: 20px;
+  background-color: #7c828a;
+  background: linear-gradient(#A5A4A6, #212529);
+}
+.nosotros .nright h3 {
+  color: whitesmoke;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  font-size: 25px;
+  padding-bottom: 0%;
+  font-weight: bold;
+}
+.nosotros .nright p {
+  color: white;
+  font-weight: lighter;
+}
+
+.nos {
+  display: grid;
+  place-items: center;
+  background-color: #7c828a;
+}
+.nos .carta {
+  height: 640px;
+  background-color: #212529;
+  width: 350px;
+  text-align: center;
+  color: #F2F2F2;
+  border: solid 6px black;
+  box-shadow: 0px 0px 5px rgb(255, 199, 15);
+  margin-bottom: 10px;
+}
+.nos .carta-img {
+  height: 400px;
+  background-image: url(../img/nick.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px black;
+}
+.nos .carta-img2 {
+  height: 400px;
+  background-image: url(../img/navajas.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px black;
+}
+.nos .carta-img3 {
+  height: 400px;
+  background-image: url(../img/tony.jpg);
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px black;
+}
+.nos .carta-titulo {
+  color: #F2F2F2;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  font-size: 25px;
+  margin: 5px;
+}
+.nos .carta-desc {
+  font-size: 15px;
+  text-align: center;
+  padding: 0px 8px;
+}
+.nos .btn {
+  font-size: 18px;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  border: solid 3px whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgb(255, 199, 15);
+  margin: 5px;
+  margin-top: 0%;
+}
+.nos a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
+.ubicacion {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  background-color: #7c828a;
+}
+.ubicacion .izquierda {
+  display: flex;
+  color: #F2F2F2;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+}
+.ubicacion .izquierda .fa-solid {
+  padding-left: 10px;
+}
+.ubicacion .derecha h3 {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.contacto {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  border: solid 5px black;
+  background: linear-gradient(#A5A4A6, #212529);
+}
+.contacto .izq {
+  padding: 20px;
+  color: #F2F2F2;
+  padding-bottom: 0%;
+  font-size: 18px;
+  border-bottom: solid 5px black;
+}
+.contacto .izq h3 {
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+}
+.contacto .der {
+  padding: 20px;
+  color: #F2F2F2;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+}
+.contacto .der form {
+  font-size: 18px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto .der form input {
+  width: 300px;
+  height: 30px;
+}
+.contacto .der form .btn {
+  font-size: 18px;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  border: solid 3px whitesmoke;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgb(255, 199, 15);
+  margin: 5px;
+}
+
+footer {
+  background-color: #212529;
+  height: 80px;
+}
+footer h3 {
+  color: #F2F2F2;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+  text-decoration: none;
+  padding: 15px;
+  padding-bottom: 0%;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer .fa-brands {
+  padding-left: 17px;
+  font-size: 30px;
+  width: 100px;
+  color: white;
+  text-shadow: 0px 0px 5px rgb(255, 199, 15);
+}
+
+@media only screen and (min-width: 576px) {
+  nav {
+    width: 626px;
+  }
+  .jumbotron {
+    width: 626px;
+  }
+  footer {
+    width: 626px;
+  }
+}
+@media only screen and (min-width: 634px) {
+  nav {
+    width: 750px;
+  }
+  .jumbotron {
+    width: 750px;
+  }
+  footer {
+    width: 750px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  nav {
+    width: 768px;
+  }
+  .jumbotron {
+    width: 750px;
+  }
+  .jumbotron button {
+    position: absolute;
+    right: 66px;
+  }
+  main .servis {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  main .servis .card {
+    margin: 10px;
+  }
+  .nos {
+    display: flex;
+  }
+  .nos .carta {
+    height: 710px;
+    margin: 10px;
+  }
+  .ubicacion .derecha iframe {
+    width: 768px;
+  }
+  .contacto .der form input {
+    width: 400px;
+    height: 33px;
+  }
+  footer {
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  nav {
+    width: 1024px;
+  }
+  .jumbotron {
+    width: 1024px;
+  }
+  .jumbotron button {
+    position: absolute;
+    right: 48px;
+  }
+  .nos .carta {
+    height: 660px;
+  }
+  .ubicacion .derecha iframe {
+    width: 1024px;
+  }
+  .contacto .der form input {
+    width: 500px;
+    height: 35px;
+  }
+  footer {
+    width: 1024px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  nav {
+    width: 1440px;
+  }
+  .jumbotron {
+    width: 1440px;
+  }
+  .jumbotron button {
+    position: absolute;
+    right: 286px;
+  }
+  .nos .carta {
+    height: 620px;
+    width: 458px;
+  }
+  .ubicacion .derecha iframe {
+    width: 1440px;
+  }
+  .contacto .der form input {
+    width: 700px;
+    height: 35px;
+  }
+  footer {
+    width: 1440px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  nav {
+    width: 1366px;
+  }
+  .jumbotron {
+    width: 1366px;
+  }
+  .nos .carta {
+    height: 620px;
+    width: 540px;
+  }
+  .ubicacion .derecha iframe {
+    width: 1365px;
+  }
+  footer {
+    width: 1366px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  nav {
+    width: 2560px;
+  }
+  .jumbotron {
+    width: 2560px;
+  }
+  footer {
+    width: 2560px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

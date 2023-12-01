@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Montagu+Slab:opsz,wght@16..144,300;16..144,400&family=Oswald:wght@600&family=Slabo+27px&display=swap');
+// font-family: 'Gabarito', sans-serif;
+// font-family: 'Montagu Slab', serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Slabo 27px', serif;
+*{
+    font-family: 'Montagu Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    nav{
+        .navbar{
+            color: black !important;
+        }
+        .navbar-brand{
+            color: #F2F2F2;
+            text-shadow: 0px 0px 5px  rgb(255, 199, 15);
+        }
+        span{
+            .navbar-toggler-icon{
+                text-shadow: 0px 0px 5px rgb(255, 199, 15) !important;
+            }
+        }
+        .navbar-toggler{
+            box-shadow: 0px 0px 10px rgb(255, 199, 15);
+        }
+        .nav-link{
+            color: #F2F2F2 !important;
+            text-shadow: 0px 0px 5px rgb(255, 199, 15);
+        }
+    }
+}
+
+.jumbotron{
+    height: 500px;
+    margin-top: 0% !important;
+    background-image: url(../img/inicio.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    h1{
+        padding-bottom: 0%;
+        font-size: 30px;
+        color: #F2F2F2;
+        text-shadow: 0px 0px 4px  rgb(255, 199, 15);
+        border: solid black 5px;
+        border-radius: 5px;
+        backdrop-filter: blur(1px);
+        box-shadow: 0px 0px 5px rgb(255, 199, 15);
+    }
+    p{
+        color: #F2F2F2;
+        text-shadow: 0px 0px 4px  rgb(255, 199, 15);
+        font-size: 25px;
+        border: solid black 5px;
+        border-radius: 5px;
+        backdrop-filter: blur(1px);
+        box-shadow: 0px 0px 10px rgb(255, 199, 15);
+    }
+    button{
+        position: absolute;
+        right: 50px;
+        text-shadow: 0px 0px 5px rgb(255, 199, 15);
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px  rgb(255, 199, 15);
+        a{
+            text-decoration: none;
+            color: #F2F2F2;
+        }
+    }
+}
+
+
+h2{
+    color: #F2F2F2;
+    text-shadow: 0px 0px 5px rgb(255, 199, 15);
+    background-color: #A5A4A6;
+    height: 55px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin:0%;
+}
+
+main{
+    .servis{
+        display: grid;
+        place-items: center;
+        background:linear-gradient(#A5A4A6,#212529);
+        .card{
+            height: 500px;
+            background-color: #212529;
+            width: 350px;
+            text-align: center;
+            color: #F2F2F2;
+            border: solid 6px black;
+            box-shadow: 0px 0px 5px rgb(255, 199, 15);
+            margin-bottom: 10px;
+        }
+        .card-img{
+            height: 400px;
+            background-image: url(../img/corte\ clasico.jpg);
+            background-size: cover;
+            background-position: center;
+            border-bottom: solid 4px black;
+        }
+        .card-img2{
+            height: 400px;
+            background-image: url(../img/barba.jpg);
+            background-size: cover;
+            background-position: center;
+            border-bottom: solid 4px black;
+        }
+        .card-img3{
+            height: 400px;
+            background-image: url(../img/color.jpg);
+            background-size: cover;
+            background-position: center;
+            border-bottom: solid 4px black;
+        }
+        .card-title{
+            color: #F2F2F2;
+            text-shadow: 0px 0px 5px rgb(255, 199, 15);
+            font-size: 25px;
+            margin: 5px;
+        }
+        .btn{
+            font-size: 18px;
+            text-shadow: 0px 0px 5px rgb(255, 199, 15);
+            //text-decoration: underline;
+            border: solid 3px whitesmoke;
+            border-radius: 15px;
+            box-shadow: 0px 0px 5px rgb(255, 199, 15);
+            margin: 5px;
+            margin-top: 0%;
+            a{
+                text-decoration: none;
+                color: #F2F2F2;
+            }
+        }
+    }
+}
+
+.nosotros {
+    //display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    .nleft {
+        width: 100%;
+        background-image: url(https://cdn.pixabay.com/photo/2019/09/17/18/52/barbershop-4484297_1280.jpg);
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        border: solid 5px black;
+    }
+    .nright {
+        width: 100%;
+        padding: 20px;
+        background-color: #7c828a;
+        background:linear-gradient(#A5A4A6,#212529);
+        h3{
+            color: whitesmoke;
+            text-shadow: 0px 0px 5px rgb(255, 199, 15);
+            font-size: 25px;
+            padding-bottom: 0%;
+            font-weight: bold;
+        }
+        p{
+            color: white;
+            font-weight: lighter;
+        }
+    }
+}
+
+.nos{
+    display: grid;
+    place-items: center;
+    background-color: #7c828a;
+    .carta{
+        height: 640px;
+        background-color: #212529;
+        width: 350px;
+        text-align: center;
+        color: #F2F2F2;
+        border: solid 6px black;
+        box-shadow: 0px 0px 5px rgb(255, 199, 15);
+        margin-bottom: 10px;
+    }
+    .carta-img{
+        height: 400px;
+        background-image: url(../img/nick.jpg);
+        background-size: cover;
+        background-position: center;
+        border-bottom: solid 4px black;
+    }
+    .carta-img2{
+        height: 400px;
+        background-image: url(../img/navajas.jpg);
+        background-size: cover;
+        background-position: center;
+        border-bottom: solid 4px black;
+    }
+    .carta-img3{
+        height: 400px;
+        background-image: url(../img/tony.jpg);
+        background-size: cover;
+        background-position: center;
+        border-bottom: solid 4px black;
+    }
+    .carta-titulo{
+        color: #F2F2F2;
+        text-shadow: 0px 0px 5px rgb(255, 199, 15);
+        font-size: 25px;
+        margin: 5px;
+    }
+    .carta-desc{
+        font-size: 15px;
+        text-align: center;
+        padding: 0px 8px
+    }
+    .btn{
+        font-size: 18px;
+        text-shadow: 0px 0px 5px rgb(255, 199, 15);
+        //text-decoration: underline;
+        border: solid 3px whitesmoke;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px rgb(255, 199, 15);
+        margin: 5px;
+        margin-top: 0%;
+    }
+    a{
+        text-decoration: none;
+        color: #F2F2F2;
+    }
+    
+}
+//ubicacion
+.ubicacion {
+    //display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background-color: #7c828a;
+    .izquierda {
+        display: flex;
+        color: #F2F2F2;
+        text-shadow: 0px 0px 5px rgb(255, 199, 15);
+        font-size: 30px;
+        font-weight: bold;
+        padding: 15px;
+        .fa-solid{
+            padding-left: 10px;
+        }
+    }
+    .derecha h3 {
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+}
+
+//contacto
+.contacto{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    border: solid 5px black;
+    background:linear-gradient(#A5A4A6,#212529);
+    .izq{
+        padding: 20px;
+        color: #F2F2F2;
+        padding-bottom: 0%;
+        font-size: 18px;
+        border-bottom:solid 5px black;
+        h3{
+            text-shadow: 0px 0px 5px rgb(255, 199, 15);
+        }
+    }
+    .der{
+        padding: 20px;
+        color: #F2F2F2;
+        text-shadow: 0px 0px 5px rgb(255, 199, 15);
+        
+        form {
+            font-size: 18px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input{
+                width: 300px;
+                height: 30px;
+            }
+            .btn{
+                font-size: 18px;
+                text-shadow: 0px 0px 5px rgb(255, 199, 15);
+                border: solid 3px whitesmoke;
+                border-radius: 15px;
+                box-shadow: 0px 0px 5px rgb(255, 199, 15);
+                margin: 5px;
+                
+            }
+        }
+    }
+}
+
+footer{
+    
+    background-color: #212529;
+    height: 80px;
+    h3{
+        color: #F2F2F2;
+        text-shadow: 0px 0px 5px  rgb(255, 199, 15);
+        text-decoration: none;
+        padding: 15px;
+        padding-bottom: 0%;
+        font-size: 20px;
+        text-decoration: none;
+        
+    }
+    .fa-brands{
+        padding-left: 17px;
+        font-size: 30px;
+        width: 100px;
+        color: white;
+        text-shadow: 0px 0px 5px  rgb(255, 199, 15);
+        
+        
+    } 
+}
+
