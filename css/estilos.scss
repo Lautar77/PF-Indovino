@@ -331,3 +331,285 @@ footer{
     } 
 }
 
+@media only screen and (min-width:576px){
+    nav{
+        width: 626px;
+    }
+    .jumbotron{
+        width: 626px;
+    }
+    footer{
+        width: 626px;
+    }
+}
+@media only screen and (min-width:634px){
+    nav{
+        width: 750px;
+    }
+    .jumbotron{
+        width: 750px;
+    }
+    footer{
+        width: 750px;
+    }
+}
+@media only screen and (min-width:764px){
+    nav{
+        width: 764px;
+    }
+    .jumbotron{
+        width: 764px;
+    }
+    footer{
+        width: 764px;
+    }
+}
+@media only screen and (min-width:768px){
+    nav{
+        width: 768px;
+    }
+    .jumbotron{
+        width: 768px;
+        button{
+            position: absolute;
+            right: 66px
+        }
+    }
+    main{
+        .servis{
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            .card{
+                margin: 10px;
+            }
+        }
+        
+    }
+    .nos{
+        display: flex;
+        .carta{
+            height: 710px;
+            margin: 10px;
+        }
+    }
+    .ubicacion{
+        .derecha{
+            iframe{
+                width:768px;
+            }
+        }
+    }
+    .contacto{
+        .der{
+            form{
+                input{
+                    width: 400px;
+                    height: 33px;
+                }
+            }
+        }
+    }
+    footer{
+        width: 768px;
+    }
+}
+@media only screen and (min-width:800px){
+    nav{
+        width: 800px;
+    }
+    .jumbotron{
+        width: 800px;
+    }
+    footer{
+        width: 800px;
+    }
+}
+@media only screen and (min-width:820px){
+    nav{
+        width: 820px;
+    }
+    .jumbotron{
+        width: 820px;
+    }
+    footer{
+        width: 820px;
+    }
+}
+@media only screen and (min-width:852px){
+    nav{
+        width: 852px;
+    }
+    .jumbotron{
+        width: 852px;
+    }
+    footer{
+        width: 852px;
+    }
+}
+@media only screen and (min-width:900px){
+    nav{
+        width: 900px;
+    }
+    .jumbotron{
+        width: 900px;
+    }
+    footer{
+        width: 900px;
+    }
+}
+@media only screen and (min-width:944px){
+    nav{
+        width: 944px;
+    }
+    .jumbotron{
+        width: 944px;
+    }
+    footer{
+        width: 944px;
+    }
+}
+@media only screen and (min-width:952px){
+    nav{
+        width: 952px;
+    }
+    .jumbotron{
+        width: 952px;
+    }
+    footer{
+        width: 952px;
+    }
+}
+@media only screen and (min-width:1012px){
+    nav{
+        width: 1012px;
+    }
+    .jumbotron{
+        width: 1012px;
+    }
+    footer{
+        width: 1012px;
+    }
+}
+@media only screen and (min-width:1024px){
+    nav{
+        width: 1024px;
+    }
+    .jumbotron{
+        width: 1024px;
+        button{
+            position: absolute;
+            right: 48px
+        }
+    }
+    .nos{
+        .carta{
+            height: 660px;
+        }
+    }
+    .ubicacion{
+        .derecha{
+            iframe{
+                width: 1024px;
+            }
+        }
+    }
+    .contacto{
+        .der{
+            form{
+                input{
+                    width: 500px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+    footer{
+        width:1024px
+    }
+}
+@media only screen and (min-width:1284px){
+    nav{
+        width: 1284px;
+    }
+    .jumbotron{
+        width: 1284px;
+    }
+    footer{
+        width: 1284px;
+    }
+}
+@media only screen and (min-width:1366px){
+    nav{
+        width: 1366px;
+    }
+    .jumbotron{
+        width: 1366px;
+    }
+    .nos{
+        .carta{
+            height: 620px;
+            width: 540px;
+        }
+    }
+    .ubicacion{
+        .derecha{
+            iframe{
+                width:1365px;
+            }
+        }
+    }
+    footer{
+        width: 1366px;
+    }
+}
+@media only screen and (min-width:1440px){
+    nav{
+        width: 1440px;
+    }
+    .jumbotron{
+        width: 1440px;
+        button{
+            position: absolute;
+            right: 286px
+        }
+    }
+    .nos{
+        .carta{
+            height: 620px;
+            width: 458px;
+        }
+    }
+    .ubicacion{
+        .derecha{
+            iframe{
+                width:1440px;
+            }
+        }
+    }
+    .contacto{
+        .der{
+            form{
+                input{
+                    width: 700px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+    footer{
+        width: 1440px;
+    }
+}
+
+@media only screen and (min-width:2560px){
+    nav{
+        width: 2560px;
+    }
+    .jumbotron{
+        width: 2560px;
+    }
+    footer{
+        width: 2560px;
+    }
+}
